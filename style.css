@@ -1,0 +1,18 @@
+body {
+    font-family: "PT Sans Caption", sans-serif;
+  }
+
+  main {
+    min-height: 100vh;
+    background-color: #f7ecde;
+  }
+
+  main h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+  }
+  
+  .bookmark-body h2 {
+    font-size: 25px;
+  }

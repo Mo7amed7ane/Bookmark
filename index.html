@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css'/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Js</title>
+
+    <style>
+      
+    </style>
+</head>
+
+<body>
+
+<main class="main py-5">
+    <div class="container d-flex justify-content-center flex-column align-items-center" class="mt-5">
+        <h1 class="py-3">Bookmarker</h1>
+       <hr class="w-75">
+        <div class="bookmark-body w-100 mt-5 py-3 d-flex flex-column justify-content-center align-items-center">
+            <h2>
+                <i class="fa-solid fa-bookmark"></i>
+                Bookmark your favorite sites
+                <i class="fa-solid fa-bookmark"></i>
+              </h2>
+         <div class="site-name w-100 d-flex flex-column justify-content-center">
+            <label class="mb-1" for="bookMarkN"> <i class="fa-solid fa-book-bookmark pe-2"></i> Site Name</label>
+            <input type="text" placeholder="Bookmark Name" id="bookMarkN" class="form-control mb-3">
+            
+            <label class="mb-1" for="bookmarkURL"><i class="fa-solid fa-link pe-2"></i> Site URL</label>
+            <input type="text" placeholder="Website URL" id="bookmarkURL" class="form-control mb-3">
+             
+         </div>
+         <button class="btn btn-outline-danger px-5 btn-lg" id="submitBtn">Sumbit</button>
+         <hr class="w-75">
+        </div>
+           <table class="table mt-3 text-center bg-light">
+            <thead>
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <th>Delete</th>
+            </thead>
+<tbody id="tableContent">
+
+</tbody>
+           </table>
+            
+     </div>
+</main>
+    
+
+    <script src="main.js">  </script>
+</body>
+
+</html>
